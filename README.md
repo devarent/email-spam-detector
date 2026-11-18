@@ -32,3 +32,11 @@
 1. **False Positives:** Meminimalkan *false positive* adalah prioritas utama dalam email security agar email sah dari klien, pimpinan, atau transaksi finansial tidak diblokir.
 2. **Data Imbalance:** Dataset memiliki rasio 86.6% Ham vs 13.4% Spam. Pembobotan TF-IDF dan metrik F1-score memastikan model tidak bias pada kelas mayoritas.
 3. **Evasion / Obfuscation:** Penyerang sering menyamarkan kata kunci (`FR33`, `W1N`, `cl!ck`). Solusi modern memerlukan penggabungan filter ML dengan analisis heuristik (*rule-based*) dan reputasi domain email.
+
+---
+
+## Project Governance
+
+[![CI](https://github.com/aryafatthurahman4-collab/email-spam-detector/actions/workflows/ci.yml/badge.svg)](https://github.com/aryafatthurahman4-collab/email-spam-detector/actions/workflows/ci.yml)
+
+[Contributing](CONTRIBUTING.md) | [Security Policy](SECURITY.md) | [Code of Conduct](CODE_OF_CONDUCT.md)
